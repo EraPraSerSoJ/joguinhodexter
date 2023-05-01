@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Data 70', sans-serif;
+    background-image: url("../img/field/microchip.jpg");
+}
+
+h1 {
+    font-size: 150pt;
+    margin: 0;
+    -webkit-text-stroke: 1px black;
+}
+
+h2 {
+    font-size: 50pt;
+    margin: 0;
+}
+
+.main {
+    font-family: "Baby Kruffy";
+    color: #CFFF34;
+    margin: 0;
+    text-shadow:
+                -2px  0px 0px black,
+                 15px  0px 0px black,
+                 0px 25px 0px black,
+                 0px  1px 0px black;
+}
+
+.subtitle {
+    margin: 0;
+    color: #00FF00;
+}
+
+.subtitle span{
+    background-color: black;
+}
+
+#game-over {
+    font-size: 120pt;
+    color: #FFFEDE;
+    position: absolute;
+    top: 750px;
+    left: 1250px;
+    -webkit-text-stroke: 8px #9168ADff;    
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+  }
